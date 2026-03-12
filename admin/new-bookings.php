@@ -28,16 +28,7 @@ if (strlen($_SESSION['adminid']==0)) {
 
     <main class="app-content">
      
-      	<!-- 
 
-
-	- Author Name: MH RONY.
-	- GigHub Link: https://github.com/dev-mhrony
-	- Facebook Link:https://www.facebook.com/dev.mhrony
-	- Youtube Link: <a href = "https://www.youtube.com/@codecampbdofficial"> Code Camp BD</a>
-	- for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-	- Visit My Website : https://dev-mhrony.com
-	 -->
        <div class="row">
         <div class="col-md-12">
           <div class="tile">
@@ -100,16 +91,7 @@ on t2.PackageType=t5.id where t1.paymentType is null || t1.paymentType=''";
                       <td><?php echo htmlentities($result->PackageName);?></td>
                     <td ><?php echo htmlentities($result->title);?></td>
             
-                  	<!-- 
-
-
-	- Author Name: MH RONY.
-	- GigHub Link: https://github.com/dev-mhrony
-	- Facebook Link:https://www.facebook.com/dev.mhrony
-	- Youtube Link: <a href = "https://www.youtube.com/@codecampbdofficial"> Code Camp BD</a>
-	- for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-	- Visit My Website : https://dev-mhrony.com
-	 -->
+            
                      <td>
                       <a href="booking-history-details.php?bookingid=<?php echo htmlentities($result->bookingid);?>"><button class="btn btn-primary" type="button">View</button></a> 
                      </td>

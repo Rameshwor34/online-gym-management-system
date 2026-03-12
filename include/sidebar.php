@@ -383,8 +383,8 @@
 				<div class="row">
 					
 					<div class="col-md-8 text-md-right">
-						<div class="copyright"> 
-Copyright All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></div>
+						<div class="copyright">
+							<i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></div>
 					</div>
 				</div>
 			</div>

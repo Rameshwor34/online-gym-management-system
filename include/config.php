@@ -4,7 +4,7 @@ ob_start();
 define('DB_HOST','localhost');
 define('DB_USER','root');
 define('DB_PASS','');
-define('DB_NAME','Your_Database_Name');
+define('DB_NAME','gym_codecampbd');
 // Establish database connection.
 try
 {
